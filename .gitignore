@@ -1,0 +1,12 @@
+# Ignore virtual environment
+/rejoult/
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore environment variables file
+.env
+
+# IDE-specific files (optional)
+.vscode/
+.idea/
