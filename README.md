@@ -24,5 +24,16 @@ Follow these steps to set up and run the application on your local machine.
 ### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/kevinrotern/rejolut_assignement.git
 
-cd document-based-rag-app
+
+python -m venv rejoult
+.\rejoult\Scripts\activate
+
+cd backend
+pip install -r requirements.txt
+python manage.py runserver
+
+cd frontend
+streamlit run app.py
+
